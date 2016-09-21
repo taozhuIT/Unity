@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityIAP.CSharp.Plugins", "UnityIAP.CSharp.Plugins.csproj", "{EB4B612D-4701-02AA-E419-867FC2C5002C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityIAP.CSharp", "UnityIAP.CSharp.csproj", "{0633E816-6B74-FC5B-0A01-F673353DBE68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB4B612D-4701-02AA-E419-867FC2C5002C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4B612D-4701-02AA-E419-867FC2C5002C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4B612D-4701-02AA-E419-867FC2C5002C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4B612D-4701-02AA-E419-867FC2C5002C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0633E816-6B74-FC5B-0A01-F673353DBE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0633E816-6B74-FC5B-0A01-F673353DBE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0633E816-6B74-FC5B-0A01-F673353DBE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0633E816-6B74-FC5B-0A01-F673353DBE68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
