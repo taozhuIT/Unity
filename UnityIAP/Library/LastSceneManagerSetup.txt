@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/UnityIAP.unity
+- path: Assets/Practice/mask.unity
   isLoaded: 1
   isActive: 1
