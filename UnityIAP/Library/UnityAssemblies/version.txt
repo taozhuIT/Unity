@@ -1,8 +1,8 @@
-5.4.0f3:2.2.0.0
+5.3.4f1:2.2.0.0
 Android
-D:/Unity5.4/Install/Editor/Data/Managed/UnityEngine.dll
-D:/Unity5.4/Install/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
-D:/Unity5.4/Install/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
-D:/Unity5.4/Install/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
-D:/Unity5.4/Install/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll
-D:/Unity5.4/Install/Editor/Data/Managed/UnityEditor.dll
+E:/Unity5.3.4/Install/Editor/Data/Managed/UnityEngine.dll
+E:/Unity5.3.4/Install/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+E:/Unity5.3.4/Install/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+E:/Unity5.3.4/Install/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+E:/Unity5.3.4/Install/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll
+E:/Unity5.3.4/Install/Editor/Data/Managed/UnityEditor.dll
