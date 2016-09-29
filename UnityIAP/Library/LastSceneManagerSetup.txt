@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Practice/mask.unity
+- path: Assets/Scene/LightingTest/Lighting.unity
   isLoaded: 1
   isActive: 1

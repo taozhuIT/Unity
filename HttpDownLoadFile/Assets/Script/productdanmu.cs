@@ -12,7 +12,7 @@ public class productdanmu : MonoBehaviour
     private GameObject texts;//生成的弹幕物体
     private float production_timer;//生成弹幕的时间间隔
 
-    private int[] numb = new int[] { -439, -339, -239, -139 - 39, 0, 39, 139, 239, 339, 439 };//四行弹幕的位置
+    //private int[] numb = new int[] { -439, -339, -239, -139 - 39, 0, 39, 139, 239, 339, 439 };//四行弹幕的位置
 
     private int Row_index;//弹幕行数变化
     private int a;////弹幕行数变化中间变量（桥的作用）
@@ -38,13 +38,13 @@ public class productdanmu : MonoBehaviour
         if (production_timer <= 0f)
         {
             int index = UnityEngine.Random.Range(0, DanMuStrings.Length);//弹幕的随机内容
-            int order = 0;
+            //int order = 0;
 
             UnityEngine.Random.seed = (int)(Time.realtimeSinceStartup * 100);
-            order = UnityEngine.Random.Range(0, 10);
+            Row_index = UnityEngine.Random.Range(-439, 439); // 弹幕位置随机
 
 
-            Row_index = numb[order]; // 弹幕位置随机
+            //Row_index = numb[order]; 
             content = DanMuStrings[index];
 
             createDanMuEntity();        //调用生成弹幕方法
@@ -86,6 +86,7 @@ public class productdanmu : MonoBehaviour
         texts = Instantiate(textsdanmu) as GameObject;
         texts.transform.position = textpositon;
         texts.transform.rotation = textrotation;
+        texts.gameObject.SetActive(true);
 
         if (texts != null)
         {
@@ -95,7 +96,7 @@ public class productdanmu : MonoBehaviour
             textrotation.eulerAngles = new Vector3(0, 0, 0);
             texts.transform.localRotation = textrotation;
 
-            texts.transform.localPosition = new Vector3(1150, Row_index, 0);//--弹幕移动的起始位置X           
+            texts.transform.localPosition = new Vector3(1500, Row_index, 0);//--弹幕移动的起始位置X           
 
             texts.transform.GetComponent<Text>().text = content;    //弹幕内容  
 
